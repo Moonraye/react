@@ -1,4 +1,3 @@
-import { useState } from "react";
 import themeLogo from "/night-mode.png";
 export default function Header() {
   const navList = [

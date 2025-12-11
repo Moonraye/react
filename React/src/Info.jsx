@@ -1,4 +1,3 @@
-import { useState } from "react";
 import myPhoto from "/my-photo.png";
 import CV from "/my-CV.pdf";
 export default function Info() {
@@ -12,7 +11,8 @@ export default function Info() {
       "to the development of web products.",
   };
   return (
-    <section id="info"
+    <section
+      id="info"
       className="info-section mx-10 px-6 py-12 mb-12 flex flex-col md:flex-row items-center
      bg-white dark:bg-gray-800 rounded-tl-lg shadow-xl overflow-hidden p-4 md:p-8"
     >
@@ -34,6 +34,7 @@ export default function Info() {
           href={CV}
           className="inline-block bg-emerald-600 text-white font-bold py-3 px-6 rounded-lg shadow-lg
         transition-transform transform hover:scale-105 hover:bg-emerald-700"
+          target="_blank"
         >
           Open resume in PDF
         </a>

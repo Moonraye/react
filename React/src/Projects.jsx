@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Card from './Card.jsx'
 import projectsData from './data/projects-data.json';
 

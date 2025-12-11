@@ -1,4 +1,3 @@
-import { useState } from "react";
 export default function Card({project}) {
     return (
         <div className="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4">
