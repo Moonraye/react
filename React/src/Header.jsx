@@ -1,4 +1,4 @@
-import themeLogo from "/night-mode.png";
+import Theme from "./Theme.jsx";
 export default function Header() {
   const navList = [
     { title: "Biography", link: "#info" },
@@ -19,9 +19,7 @@ export default function Header() {
         </ul>
       </nav>
       <div>
-        <a href="">
-          <img src={themeLogo} alt="ThemeMod" className="w-15 h-15"/>
-        </a>
+        <Theme />
       </div>
     </header>
   );
