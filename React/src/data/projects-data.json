@@ -33,5 +33,12 @@
         "description": "Custom dropdown menu that lets users select an item from a list. When an item is selected, the dropdown closes, and the selected item is marked. Implemented in HTML, JS, Tailwind CSS.",
         "github": "https://github.com/Moonraye/drop-down-menu",
         "live": "https://moonraye.github.io/drop-down-menu/"
+    },
+        {
+        "id": 6,
+        "title": "Age Calculator",
+        "description": "The Age Calculator project calculates age based on the input date of birth. It provides the result in years, months, and days. Implemented in ReactJS and Tailwind CSS.",
+        "github": "https://github.com/Moonraye/age-calculator",
+        "live": "https://moonraye.github.io/age-calculator/"
     }
 ]
