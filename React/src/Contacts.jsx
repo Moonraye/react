@@ -3,7 +3,7 @@ import LinkedInLogo from "/linkedin.png";
 import GitHubLogo from "/github.png";
 export default function Contacts() {
   return (
-    <section className="mb-12">
+    <section id="contacts" className="mb-12">
       <h2 className="text-3xl font-bold text-center mb-6">
         Get in touch with me
       </h2>
@@ -12,7 +12,10 @@ export default function Contacts() {
       </p>
       <div className="flex flex-col m-auto max-w-2xl gap-3">
         <div className="flex items-center gap-3 m-auto text-slate-400">
-          <button onClick={() => navigator.clipboard.writeText('olegzavedia0@gmail.com')}
+          <button
+            onClick={() =>
+              navigator.clipboard.writeText("olegzavedia0@gmail.com")
+            }
             className="underline decoration-solid cursor-pointer text-black hover:text-slate-500
                      active:text-emerald-700 
                 dark:text-white dark:hover:text-slate-500 dark:active:text-emerald-300"
@@ -22,7 +25,7 @@ export default function Contacts() {
         </div>
         <div
           className="p-5 mt-0 rounded-tl-lg shadow-md text-xl
-                items-center flex justify-evenly lg:col-start-1 lg:row-start-2"
+          items-center flex justify-evenly lg:col-start-1 lg:row-start-2"
         >
           <a
             href="https://github.com/Moonraye"

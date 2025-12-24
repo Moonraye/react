@@ -19,5 +19,19 @@
         "description": "The Textarea project is an input field with a character counter. It limits text length in real time. Implemented in HTML, JS, and Tailwind CSS.  ",
         "github": "https://github.com/Moonraye/textarea",
         "live": "https://moonraye.github.io/textarea/"
+    },
+    {
+        "id": 4,
+        "title": "Accordion",
+        "description": "The Accordion project is an interactive component. It allows you to hide content and display more information in a limited. Implemented in HTML, JS, and Tailwind CSS.  ",
+        "github": "https://github.com/Moonraye/accordion",
+        "live": "https://moonraye.github.io/accordion/"
+    },
+    {
+        "id": 5,
+        "title": "Dropdown Menu",
+        "description": "Custom dropdown menu that lets users select an item from a list. When an item is selected, the dropdown closes, and the selected item is marked. Implemented in HTML, JS, Tailwind CSS.",
+        "github": "https://github.com/Moonraye/drop-down-menu",
+        "live": "https://moonraye.github.io/drop-down-menu/"
     }
 ]
