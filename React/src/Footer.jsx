@@ -5,8 +5,10 @@ export default function Footer() {
                 <div className="footer-links flex justify-center space-x-6 mb-4">
                     <a className="hover:text-emerald-600 dark:hover:text-emerald-400" href="https://github.com/Moonraye/Moonraye.github.io" target="_blank">GitHub</a>
                     <a className="hover:text-emerald-600 dark:hover:text-emerald-400" href="https://t.me/aleeeeeeeh" target="_blank">Telegram</a>
+                    <a className="hover:text-emerald-600 dark:hover:text-emerald-400" href="https://moonraye.github.io/" target="_blank">Return to HTML version</a>
+
                 </div>
-                <p>2025 Oleh Zavediia | Built with Tailwind CSS</p>
+                <p>2025 Oleh Zavediia | Built with ReactJS</p>
             </div>
         </footer>
     )}
