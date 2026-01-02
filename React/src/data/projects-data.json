@@ -40,5 +40,12 @@
         "description": "The Age Calculator project calculates age based on the input date of birth. It provides the result in years, months, and days. Implemented in ReactJS and Tailwind CSS.",
         "github": "https://github.com/Moonraye/age-calculator",
         "live": "https://moonraye.github.io/age-calculator/"
+    },
+    {
+        "id": 7,
+        "title": "Todo List",
+        "description": "The Todo List project is a task management application. It allows users to add, delete, and mark tasks as completed. Implemented in ReactJS and Tailwind CSS.",
+        "github": "https://github.com/Moonraye/todo-list",
+        "live": "https://moonraye.github.io/todo-list/"
     }
 ]
