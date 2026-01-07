@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header
       className="header bg-slate-100 dark:bg-slate-800 shadow-md sticky top-0 z-50 mx-auto px-6 flex flex-col items-center 
-    space-y-3 md:flex-row md:justify-center md:space-y-0 mb-12">
+    space-y-3 flex-row justify-center md:space-y-0 lg:mb-12">
       <nav className="p-5">
         <ul className="flex flex-row flex-wrap gap-4 justify-center items-center space-x-4 md:flex-nowrap md:space-x-6">
           {navList.map((item, index) => (

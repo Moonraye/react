@@ -3,11 +3,11 @@ import LinkedInLogo from "/linkedin.png";
 import GitHubLogo from "/github.png";
 export default function Contacts() {
   return (
-    <section id="contacts" className="mb-12">
+    <section id="contacts" className="lg:mb-12">
       <h2 className="text-3xl font-bold text-center mb-6">
         Get in touch with me
       </h2>
-      <p className="text-center text-lg mb-6">
+      <p className="text-center lg:text-lg mb-6">
         I am always open to new opportunities and interesting projects.
       </p>
       <div className="flex flex-col m-auto max-w-2xl gap-3">
@@ -24,7 +24,7 @@ export default function Contacts() {
           </button>
         </div>
         <div
-          className="p-5 mt-0 rounded-tl-lg shadow-md text-xl
+          className="p-5 mt-0 rounded-tl-lg text-xl
           items-center flex justify-evenly lg:col-start-1 lg:row-start-2"
         >
           <a

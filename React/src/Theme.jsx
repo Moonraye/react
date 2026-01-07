@@ -36,7 +36,7 @@ const switchTheme = () => {
 }
     return (
         <button onClick={switchTheme} disabled={isDisabled}>
-            <img src={themeLogo} alt="ThemeMod" className="w-15 h-15"/>
+            <img src={themeLogo} alt="ThemeMod" className="w-10 h-10 lg:w-15 lg:h-15"/>
         </button>
     )
 }

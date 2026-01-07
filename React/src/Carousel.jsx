@@ -5,7 +5,7 @@ export default function Carousel({ currentIndex, setCurrentIndex }) {
   const length = projectsData.length;
   let visibleItems;
 
-  if (window.innerWidth < 768) {
+  if (window.innerWidth < 1024) {
     visibleItems = 1;
   } else {
     visibleItems = 3;
@@ -28,9 +28,9 @@ export default function Carousel({ currentIndex, setCurrentIndex }) {
     <>
       <button
         id="prev"
-        className="absolute top-1/2 left-0 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full 
+        className="absolute top-1/2 left-0 -translate-y-1/2 z-10 dark:bg-white/70 bg-gray-800/50 p-2 rounded-full 
         shadow-md hover:bg-white
-        disabled:opacity-50 disabled:cursor-not-allowed"
+        disabled:opacity-20 dark:disabled:opacity-50 disabled:cursor-not-allowed"
         onClick={prevSlide}
         disabled={!canGoPrev}
       >
@@ -40,9 +40,9 @@ export default function Carousel({ currentIndex, setCurrentIndex }) {
       </button>
       <button
         id="next"
-        className="absolute top-1/2 right-0 -translate-y-1/2 z-10 bg-white/70 p-2 rounded-full 
+        className="absolute top-1/2 right-0 -translate-y-1/2 z-10 dark:bg-white/70 bg-gray-800/50 p-2 rounded-full 
         shadow-md hover:bg-white
-           disabled:opacity-50 disabled:cursor-not-allowed"
+        disabled:opacity-20 dark:disabled:opacity-50 disabled:cursor-not-allowed"
         onClick={nextSlide}
         disabled={!canGoNext}
       >
