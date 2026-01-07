@@ -1,6 +1,6 @@
 export default function Card({project}) {
     return (
-        <div className="w-full md:w-1/2 lg:w-1/3 flex-shrink-0 px-4">
+        <div className="w-full w-1/1 lg:w-1/3 flex-shrink-0 px-4">
             <div className="bg-white dark:bg-gray-800 h-[350px] flex flex-col rounded-lg overflow-hidden shadow-lg px-4">
                 <div className="p-4 flex flex-col flex-1">
                     <h3 className="text-2xl font-bold mb-4">{project.title}</h3>

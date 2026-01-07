@@ -3,8 +3,13 @@ import projectsData from './data/projects-data.json';
 
 export default function Carousel({ currentIndex, setCurrentIndex }) {
   const length = projectsData.length;
-  const visibleItems = 3;
-  
+  let visibleItems;
+
+  if (window.innerWidth < 768) {
+    visibleItems = 1;
+  } else {
+    visibleItems = 3;
+  }
   const nextSlide = () => {
     if (currentIndex < length - visibleItems) {
       setCurrentIndex(currentIndex + 1);
