@@ -47,5 +47,12 @@
         "description": "The Todo List project is a task management application. It allows users to add, delete, and mark tasks as completed. Implemented in ReactJS and Tailwind CSS.",
         "github": "https://github.com/Moonraye/todo-list",
         "live": "https://moonraye.github.io/todo-list/"
+    },
+    {
+        "id": 8,
+        "title": "Picture Gallery",
+        "description": "The Picture Gallery project is a responsive image gallery. It displays images in a grid layout. Images getted from Unplash API. Implemented in ReactJS and Tailwind CSS.",
+        "github": "https://github.com/Moonraye/picture-list",
+        "live": "https://moonraye.github.io/picture-list/"
     }
 ]
